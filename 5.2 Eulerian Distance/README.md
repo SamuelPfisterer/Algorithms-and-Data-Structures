@@ -12,7 +12,7 @@ Your program only needs to output the minimum distance in the original graph fro
 
 For example, consider the following graph:
 
-![graph_euler.png](/)
+![graph_euler.png](graph euler.png)
 
 You can make the graph Eulerian by adding edges $(0, 5)$ and $(2, 4)$: in that case, an Eulerian cycle is composed of the nodes $0$, $5$, $4$, $2$, $1$, $4$, $3$, $1$, $0$. Then one optimal choice for your home is $s=1$, for which the minimum distance to one of $\{0, 5, 2, 4\}$ is $1$. Therefore, the correct output is $1$.
 
