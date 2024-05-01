@@ -6,7 +6,7 @@ The task is to calculate the minimum number of coins $k$ that are necessary to p
 
 For example, consider the following tree, with $n=5$:
 
-![tree.png](/cx_project_file/xu73fD4opXqugK2Nw)
+![tree.png](tree.png)
 
 In this case, the minimum number of coins necessary to put a coin on the root is $2$. One sequence of selected nodes that achieves this is: $3$, $1$, $4$ (this removes a coin from node $3$ and a coin from node $1$), $2$, $0$ (this removes a coin from node $4$ and a coin from node $2$). This strategy only needs $2$ coins: for example, when you select node $0$, you first remove one coin from each of its two children, so you can place one of these coins on node $0$.
 
