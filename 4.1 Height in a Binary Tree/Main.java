@@ -216,12 +216,12 @@ class BinaryTree {
     return search(key).height;
   }
                                             //additional methods
-  public void insertHeightAdjust(TreeNode node){ //this method gets called when an node gets inserted to update the height of every node needed to be updated
+  public void insertHeightAdjust(TreeNode node){ //this method gets called when a node gets inserted to update the height of every node needed to be updated
     if(node.parent == null){ //we stop here
       return;
     }
-    if (node.parent.height == node.height){ //the old height paht of the parent node reffered to this node
-      node.parent.height = node.parent.height +1; //we increase the heigth +1
+    if (node.parent.height == node.height){ //the old height path of the parent node referred to this node
+      node.parent.height = node.parent.height +1; //we increase the height +1
       insertHeightAdjust(node.parent); //call the method on the parent node
       
     }
