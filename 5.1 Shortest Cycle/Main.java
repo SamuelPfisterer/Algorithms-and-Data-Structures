@@ -94,7 +94,7 @@ class Graph {
       heap.add(addPair);
     }
     boolean[] marked = new boolean[n];
-    //[] prev = int[n]; ich versuche es erstmal mit contains
+  
     LinkedList<Integer> S = new LinkedList<Integer>();
     int[] origin = new int[this.n];
     S.add(0); //add the first vertx v to S
@@ -108,7 +108,7 @@ class Graph {
       origin[neighbor] = neighbor;
       int weight = weights[0][j];
       d[neighbor] = weight;
-      //System.out.println("d["+neighbor+"] = "+d[neighbor]);
+
       Pair addNeighbor = new Pair(neighbor, d[neighbor]);
       heap.add(addNeighbor);
     }
