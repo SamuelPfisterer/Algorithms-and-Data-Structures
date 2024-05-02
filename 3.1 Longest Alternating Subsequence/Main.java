@@ -27,11 +27,7 @@ class Main {
       int [][] DP = new int[2][A.length];
       DP[0][0] = 1;
       DP[1][0] = 0;
-      /*
-      for(int i = 1; i<DP.length; i++){
-        DP[0][i] = 0;
-      }
-      */
+      
       
       // fillig the DP Table
       
