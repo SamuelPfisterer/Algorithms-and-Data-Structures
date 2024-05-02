@@ -58,22 +58,6 @@ class Main {
     }
     else{//(adjL[node].size()>1)
       //calculate everything for the first two nodes
-      /*
-      int min = DFS(adjL, adjL[node].get(0));
-      int max = DFS(adjL, adjL[node].get(1));
-      if(min > max){
-        int helper = min;
-        min = max; 
-        max = helper;
-      }
-      int k;
-      if(min +1 >= max){
-        k = min +1;
-      }
-      else{
-        k = max;
-      }
-      */
       
       //we create a new array with all the needed k values for every child node of node
       int[] arr = new int[adjL[node].size()];
